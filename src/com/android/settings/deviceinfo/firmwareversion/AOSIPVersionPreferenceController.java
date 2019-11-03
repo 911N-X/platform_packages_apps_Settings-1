@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.android.settings.deviceinfo;
+package com.android.settings.deviceinfo.firmwareversion;
 
 import android.content.Context;
 import android.os.SystemProperties;
@@ -28,7 +28,7 @@ import com.android.settingslib.core.AbstractPreferenceController;
 public class AOSIPVersionPreferenceController extends AbstractPreferenceController implements
         PreferenceControllerMixin {
 
-    private static final String PROPERTY_AOSIP_VERSION = "ro.aosip.version";
+    private static final String PROPERTY_AOSIP_VERSION = "ro.aosip.buildtype";
     private static final String KEY_AOSIP_VERSION = "aosipversion";
 
     public AOSIPVersionPreferenceController(Context context) {
